@@ -1,0 +1,770 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V'Books</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="#" class="logo"> <i class="fas fa-book"></i> Vbook's </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#featured">categories</a>
+            <a href="#arrivals">arrivals</a>
+            <a href="#reviews">reviews</a>
+            <a href="blog.html">blogs</a>
+        </nav>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="blog.html" class="fas fa-blog">Blog page</a>
+</nav>
+
+<!-- login form  -->
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input type="email" name="" class="box" placeholder="enter your email" id="">
+        <span>password</span>
+        <input type="password" name="" class="box" placeholder="enter your password" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <p>forget password ? <a href="#">click here</a></p>
+        <p>don't have an account ? <a href="#">create one</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="row">
+
+        <div class="content">
+            <h3>New arrivals</h3>
+            <p>
+                "📚 Explore our latest collection of captivating stories, from thrilling mysteries to inspiring self-help guides, perfect for every reader's taste. Discover your next favorite book today!📚"</p>
+            <a href="#arrivals" class="btn">Read more</a>
+        </div>
+
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                <a href="books/spiderman-comic.pdf" target="_blank" class="swiper-slide"><img src="image/book-1.png" alt=""></a>
+                <a href="books/Dragon Ball Z_ The Viz Media Translations - Dragon Ball Z v01 (2003) (Digital) (AnHeroGold-Empire).pdf" class="swiper-slide"><img src="image/book-2.png" alt=""></a>
+                <a href="books/Your Name.pdf" class="swiper-slide"><img src="image/book-3.png" alt=""></a>
+                <a href="books/If We Ever Meet Again (If Love Book One).pdf" class="swiper-slide"><img src="image/book-4.png" alt=""></a>
+                <a href="books/Koi to Natsu Tsubaki (Complete).pdf" class="swiper-slide"><img src="image/book-5.png" alt=""></a>
+                <a href="books/It Ends with Us.pdf" class="swiper-slide"><img src="image/book-6.png" alt=""></a>
+            </div>
+            <img src="image/stand.png" class="stand" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- home section ense  -->
+
+<!-- icons section starts  -->
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-shipping-fast"></i>
+        <div class="content">
+            <h3>free shipping</h3>
+            <p>order over $100</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>secure payment</h3>
+            <p>100 secure payment</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-redo-alt"></i>
+        <div class="content">
+            <h3>easy returns</h3>
+            <p>10 days returns</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>24/7 support</h3>
+            <p>call us anytime</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- icons section ends -->
+
+<!-- featured section starts  -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>Book's Collection</span> </h1>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box"> 
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <a href="books/spiderman-comic.pdf" target="_blank" class="swiper-slide"><img src="image/book-1.png" alt=""></a>
+                </div>
+                <div class="content">
+                    <h3>Spiderman</h3>
+                    <a href="books/spiderman-comic.pdf" target="_blank"  class="btn" >Read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                <img src="image/book-2.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Dragon Ball Z</h3>
+                    <a href="books/Dragon Ball Z_ The Viz Media Translations - Dragon Ball Z v01 (2003) (Digital) (AnHeroGold-Empire).pdf" target="_blank"  class="btn" >Read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-3.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Your Name</h3>
+                    <a href="books/Your Name.pdf" class="btn">Read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-4.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>IF We Ever Meet Again</h3>
+                    <a href="books/If We Ever Meet Again (If Love Book One).pdf" class="btn">Read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-5.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Koi to Natsu Tsubaki </h3>
+                    <a href="books/Koi to Natsu Tsubaki (Complete).pdf" class="btn">Ream more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-6.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>It Ends with Us</h3>
+                    <a href="books/It Ends with Us.pdf" class="btn">Read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-7.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Unhinged</h3>
+                    <a href="books/Unhinged.pdf" class="btn">Read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-8.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Twisted Love</h3>
+                    <a href="books/Twisted Love (Twisted Book One).pdf" class="btn">Ream more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-9.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Ride Your Wave</h3>
+                    <a href="books/Ride Your Wave.pdf" class="btn">Red more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-10.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Love After Love</h3>
+                    <a href="books/Love After Love.pdf" class="btn">Read more</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- featured section ends -->
+
+<!-- newsletter section starts -->
+
+<section class="newsletter">
+
+    <form action="mailto:velmuruganvaradharaj@gmail.com" method="post" enctype="text/plain">
+        <h3>For the latest updates, mail us</h3>
+        <input type="email" name="user_email" placeholder="Enter your email" class="box" required>
+        <input type="submit" value="Subscribe" class="btn">
+    </form>
+    
+
+</section>
+
+<!-- newsletter section ends -->
+
+<!-- arrivals section starts  -->
+
+<section class="arrivals" id="arrivals">
+
+    <h1 class="heading"> <span>new arrivals</span> </h1>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="books/spiderman-comic.pdf" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-1.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Spiderman-comic</h3>
+                    <h4>Rate of the books</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="books/Dragon Ball Z_ The Viz Media Translations - Dragon Ball Z v01 (2003) (Digital) (AnHeroGold-Empire).pdf" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-2.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Dragon Ball Z</h3>
+                    <h4>Rate of the books</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="books/Your Name.pdf" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-3.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Your Name</h3>
+                    <h4>Rate of the books</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="books/If We Ever Meet Again (If Love Book One).pdf" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-4.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>IF We Ever Meet Again</h3>
+                    <h4>Rate of the books</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="books/Koi to Natsu Tsubaki (Complete).pdf" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-5.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Koi to Natsu Tsubaki</h3>
+                    <h4>Rate of the books</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="books/It Ends with Us.pdf" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-6.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>It Ends with Us</h3>
+                    <h4>Rate of the books</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="books/Unhinged.pdf" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-7.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Unhinged</h3>
+                    <h4>Rate of the books</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="books/Twisted Love (Twisted Book One).pdf" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-8.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Twisted Love</h3>
+                    <h4>Rate of the books</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="books/Ride Your Wave.pdf" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-9.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Ride Your Wave</h3>
+                    <h4>Rate of the books</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="books/Love After Love.pdf" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-10.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Love After Love</h3>
+                    <h4>Rate of the books</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- arrivals section ends -->
+
+<!-- deal section starts  -->
+
+<section class="deal">
+
+    <div class="content">
+        <h3>deal of the day</h3>
+        <h1>upto 50% off</h1>
+        <p>🌟🎯Discover this month's top pick, a masterpiece that blends gripping storytelling with unforgettable characters.
+            It's a must-read for any book lover looking for their next great adventure!🌟🎯</p>
+        <a href="books/It Ends with Us.pdf"
+         class="btn">Best book </a>
+    </div>
+
+    <div class="image">
+        <img src="image/deal-img.jpg" alt="">
+    </div>
+
+</section>
+
+<!-- deal section ends -->
+
+<!-- reviews section starts  -->
+
+<section class="reviews" id="reviews">
+
+    <h1 class="heading"> <span>client's reviews</span> </h1>
+
+    <div class="swiper reviews-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/pic-1.png" alt="">
+                <h3>Sharma</h3>
+                <p>"I absolutely love this platform! It’s like having an entire library at my fingertips. 
+                    The collection is fantastic, with something for everyone – from classics to modern hits.
+                    The interface is super user-friendly, and I can easily pick up right where I left off.
+                    Plus, the 'Deal of the Day' offers are amazing , I’ve built a great collection at half the price! 
+                    Highly recommend it to all book lovers!"</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-2.png" alt="">
+                <h3>Riya</h3>
+                <p>I've always struggled to find a platform that caters to my reading habits,
+                    but this one ticks all the boxes! The collection is vast, the interface is seamless,
+                    and the daily deals are unbeatable.I especially love how easy it is to bookmark my progress and pick up right where I left off.
+                    Thanks to this platform, I've rediscovered my love for reading.
+                    Highly recommend it to every bookworm out there!"</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-3.png" alt="">
+                <h3>Saravana</h3>
+                <p>I’ve always struggled to find a convenient way to access my favorite books on the go,
+                    but this platform has made it so easy. The vast collection, user-friendly interface,
+                    and personalized recommendations are just amazing! Plus, the Deal of the Day is a bonus
+                    – I’ve discovered so many gems at unbeatable prices. Highly recommended for anyone who loves to read!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/pic-4.png" alt="">
+                <h3>Dharsha</h3>
+                <p>"The ultimate destination for every bookworm!"
+                    ⭐️⭐️⭐️⭐️⭐️
+                    I’ve fallen in love with this platform!
+                    The seamless reading experience, coupled with a fantastic library of genres to choose from,
+                    is simply unbeatable. I also love how I can pick up where I left off across all my devices.
+                     The special discounts and deals make it even better! If you’re a book lover like me, this is the place to be.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-6.png" alt="">
+                <h3>Nisha</h3>
+                <p>"A treasure trove for book enthusiasts!"
+                    ⭐️⭐️⭐️⭐️⭐️
+                    This platform has completely transformed how I read books.
+                    The collection is vast and diverse, catering to every mood and genre I love.The intuitive design makes it so easy to find hidden gems,
+                    and the affordability is a huge plus! The Deal of the Day has introduced me to some of my all-time favorite reads.
+                    I can't recommend it enough!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+</section>
+
+<!-- reviews section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> <span>our blogs</span> </h1>
+
+    <div class="swiper blogs-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/blog-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>blog title goes here</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/blog-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>blog title goes here</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/blog-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>blog title goes here</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/blog-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>blog title goes here</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/blog-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>blog title goes here</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our locations</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> india </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> arrivals </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="tel:+917092074351"> <i class="fas fa-phone"></i> +91 7092074351 </a>
+            <a href="mailto:velmuruganvaradharaj@gmail.com"> <i class="fas fa-envelope"></i> velmuruganvaradharaj@gmail.com </a>
+            <img src="image/worldmap.png" class="map">
+        </div>     
+    </div>
+    <div class="share">
+        <a href="https://github.com/Velmuruganvarahdaraj/" class="fab fa-github"></a>
+        <a href="https://www.linkedin.com/in/velmuruganv11/" class="fab fa-linkedin"></a>
+    </div>
+    <div class="credit"> created by <span>Velmurugan V</span> | all rights reserved! </div>
+</section>
+<!-- footer section ends -->
+<!-- loader  -->
+<div class="loader-container">
+    <img src="image/loader-img.gif" alt="">
+</div>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+</body>
+</html>
