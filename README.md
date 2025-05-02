@@ -18,3 +18,28 @@ The main feature of this website are:
 ScreenShots of the Web_site
  Home_Page:
  ![img alt](https://github.com/Velmuruganvaradharaj1122/V_books/blob/b88bfdbc479166c19fa624595c5bce3bebfbcdca/Screen_shoots/Screenshot%202025-05-02%20144223.png)
+
+
+
+categoreis_pages:
+![img alt](https://github.com/Velmuruganvaradharaj1122/V_books/blob/cea8d5062b741ba369cfc8576dd760b2f0ef5067/Screen_shoots/Screenshot%202025-05-02%20144253.png)
+
+
+Arrivals_Page:
+ ![img alt](https://github.com/Velmuruganvaradharaj1122/V_books/blob/cea8d5062b741ba369cfc8576dd760b2f0ef5067/Screen_shoots/Screenshot%202025-05-02%20144319.png)
+
+
+Reviews_pages:
+![img alt](https://github.com/Velmuruganvaradharaj1122/V_books/blob/cea8d5062b741ba369cfc8576dd760b2f0ef5067/Screen_shoots/Screenshot%202025-05-02%20144338.png)
+
+
+Blogs_Page:
+![img alt](https://github.com/Velmuruganvaradharaj1122/V_books/blob/cea8d5062b741ba369cfc8576dd760b2f0ef5067/Screen_shoots/Screenshot%202025-05-02%20144405.png)
+
+
+Footer_pages:
+![img alt](https://github.com/Velmuruganvaradharaj1122/V_books/blob/cea8d5062b741ba369cfc8576dd760b2f0ef5067/Screen_shoots/Screenshot%202025-05-02%20144428.png)
+
+
+
+
